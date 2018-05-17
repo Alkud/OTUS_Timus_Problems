@@ -124,7 +124,7 @@ int main()
 				}
 				/* 5.1.1.2 */
 				auto tmp{ team };
-				std::advance(team, 1);
+				++team;
 				teams.erase(tmp);
 			}
 			else
